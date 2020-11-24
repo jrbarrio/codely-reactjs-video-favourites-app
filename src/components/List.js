@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Loading from './Loading';
 import Item from './Item';
 import Header from './Header';
+import Footer from './Footer';
+
 class List extends Component {
   constructor(props) {
     super(props);
@@ -44,6 +46,7 @@ class List extends Component {
               }
           </div>
         </div>
+        <Footer />
      </React.Fragment>);
   }
 }

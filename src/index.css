@@ -46,6 +46,19 @@ code {
 
 }
 
+.footer-content{
+  width: 100%;
+  background-color: black;
+}
+.footer-title-text{
+  /*float: right;*/
+  display:inline-block;
+  margin: 10px;
+  font-size: 10px;
+  font-weight: bold;
+  color: white;
+}
+
 /** List **/
 
 .container{
