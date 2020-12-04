@@ -14,4 +14,4 @@ Video.propTypes = {
     embed: PropTypes.string.isRequired
 };
 
-export default Video;
+export default React.memo(Video);

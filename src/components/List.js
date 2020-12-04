@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import { getVideos } from '../api';
 import Loading from './Loading';
 import Item from './Item';
 import Add from './Add';
 import Header from './Header';
-class List extends Component {
+class List extends PureComponent {
   constructor(props) {
     super(props);
     this.state = {

@@ -1,10 +1,10 @@
-import React, {Component} from 'react';
+import React, {PureComponent} from 'react';
 import { withRouter } from 'react-router'
 import { getVideoDetail } from '../api';
 import Loading from './Loading';
 import Video from './Video';
 
-class Detail extends Component {
+class Detail extends PureComponent {
     constructor(props) {
         super(props);
         this.state = {
