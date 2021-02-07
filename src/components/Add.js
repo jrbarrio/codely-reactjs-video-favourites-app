@@ -1,6 +1,5 @@
 import React, {PureComponent} from "react";
 import { addVideo } from '../api';
-import PropTypes from 'prop-types';
 
 const parseYoutubeUrl = (url) => {
     const match = url.match(/[?&]([^=#]+)=([^&#]*)/);
